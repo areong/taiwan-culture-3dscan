@@ -1,0 +1,42 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+h1 {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+h2 {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+h3 {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+p {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+/* Keep map aspect ratio. */
+#mapView {
+  padding-top: 75%;
+}
+
+/* Keep iframe aspect ratio. */
+.sketchfab-embed-wrapper {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+}
+
+.sketchfab-embed-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.sketchfab-embed-wrapper p {
+  position: absolute;
+  bottom: -30px;
+}

@@ -1,0 +1,125 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "臺靜農故居 室內",
+        "author": "areong",
+        "model": "3316e90793e6495f887d93b1538ba269"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53361022472382,
+          25.02467372077911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "臺靜農故居 室外",
+        "author": "areong",
+        "model": "a8fe39c0fd93499a82d7937aa6fe3a61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53352975845337,
+          25.024683442452904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "臺靜農故居 屋頂 街廓",
+        "model": "7a8a04db927444a98afd6aa8dfc21297",
+        "author": "areong"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53358876705168,
+          25.024678581616097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "康定路內江街口街屋",
+        "model": "8949f32da49c418a9d357f2f2a647d1a",
+        "author": "areong"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50215327739716,
+          25.04181669556736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "康定路四連棟街屋",
+        "author": "areong",
+        "model": "3a488527710d40d0a6bb46a48c6066ac"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50206208229065,
+          25.04126263631291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "康定路四連棟街屋 騎樓",
+        "author": "areong",
+        "model": "e1ee6faa06df4ead8f3378548824f870"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50208353996275,
+          25.04126263631291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "剝皮寮活版印刷特展 活版印刷機",
+        "author": "areong",
+        "model": "a887eeb82038472baba25299cef24234"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50238931179047,
+          25.036820351457415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": " 康定路200號街屋 ",
+        "author": "areong",
+        "model": "da643d8fcfff4d36a07ee09bb5843627"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50169998407364,
+          25.038788779805735
+        ]
+      }
+    }
+  ]
+}
