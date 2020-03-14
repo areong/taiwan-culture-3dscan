@@ -14,7 +14,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
-$.getJSON("http://areong.github.io/taiwan-culture-3dscan/data/models.geojson", function(geojsonData) {
+$.getJSON("https://areong.github.io/taiwan-culture-3dscan/data/models.geojson", function(geojsonData) {
   L.markerClusterGroup().addLayer(L.geoJSON(geojsonData, {
     onEachFeature: function(feature, layer) {
       layer.bindTooltip(feature.properties.title);
