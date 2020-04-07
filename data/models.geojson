@@ -109,7 +109,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": " 康定路200號街屋 ",
+        "title": "康定路200號街屋",
         "author": "areong",
         "model": "da643d8fcfff4d36a07ee09bb5843627"
       },
@@ -118,6 +118,141 @@
         "coordinates": [
           121.50169998407364,
           25.038788779805735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "剝皮寮活版印刷特展 凸版印刷成品",
+        "author": "areong",
+        "model": "078b3ac9ba3c40e1895af31b82ad39f7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50238931179047,
+          25.036820351457415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "author": "areong",
+        "title": "剝皮寮活版印刷特展 鉛字排版",
+        "model": "9f7122a470944d679e8e62f03c986caa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50238931179047,
+          25.036820351457415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "剝皮寮活版印刷特展 版材與製版",
+        "author": "areong",
+        "model": "fa1d6c03027b4cf8a3705396600b8922"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50238931179047,
+          25.036820351457415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "剝皮寮活版印刷特展 流水號印製",
+        "author": "areong",
+        "model": "22fe8d9afdd94992bb4f8fdfad40c24d"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50238931179047,
+          25.036820351457415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "臨濟護國禪寺 山門",
+        "author": "areong",
+        "model": "e647312c330f442a9662e97b386ea14f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52105212211609,
+          25.072045580335494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "中和紡織",
+        "model": "b588b58241de4792bfa739f522865741",
+        "author": "areong"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51072025299074,
+          25.053655468712535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "李臨秋故居",
+        "author": "areong",
+        "model": "1c5a5f4cc6974b5f9ad95a859192659c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5087166428566,
+          25.05515588839703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "陳天來故居 錦記茶行 正面",
+        "author": "areong",
+        "model": "5cbea2741eb743888bd80ab99766d50b"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50841623544692,
+          25.056025758928286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "陳天來故居 錦記茶行 背面",
+        "model": "6ea793a3167a43e2ab72cff0e26fea91",
+        "author": "areong"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50853693485259,
+          25.05602211423223
         ]
       }
     }

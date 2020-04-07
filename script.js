@@ -8,7 +8,7 @@ var embedSketchfab = function(modelId, modelTitle, modelAuthor) {
     </p></div>`;
 }
 
-var map = L.map('mapView').setView([25.038, 121.526], 13);
+var map = L.map('mapView').setView([25.048, 121.526], 13);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
