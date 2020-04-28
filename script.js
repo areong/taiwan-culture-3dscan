@@ -26,13 +26,48 @@ $.getJSON("https://areong.github.io/taiwan-culture-3dscan/data/models.geojson", 
     }});
   var markerClusterGroup = L.markerClusterGroup().addLayer(geoJsonLayer).addTo(map);
 
+  let getRandomFeatureIndex = function() {
+    return Math.floor(Math.random() * geoJsonData.features.length);
+  };
+
+  // Select a feature index.
+  let featureIndex = 0;
+
+  // Zoom to model, open the popup, and embed the model.
+  let showModel = function(index) {
+    let selectedFeature = geoJsonData.features[index];
+    embedSketchfab(selectedFeature.properties.model, selectedFeature.properties.title, selectedFeature.properties.author);
+    let selectedLayer = geoJsonLayer.getLayers()[index];
+    markerClusterGroup.zoomToShowLayer(selectedLayer, function() {selectedLayer.openPopup();});
+  };
+
+  let showNextModel = function() {
+    featureIndex = (featureIndex + 1) % geoJsonData.features.length;
+    showModel(featureIndex);
+  }
+
+  let showPreviousModel = function() {
+    featureIndex = (featureIndex - 1 + geoJsonData.features.length) % geoJsonData.features.length;
+    showModel(featureIndex);
+  }
+
+  let showRandomModel = function() {
+    showModel(getRandomFeatureIndex());
+  }
+
+  L.easyButton('glyphicon-home', function() {
+    map.fitBounds(geoJsonLayer.getBounds());
+  }, "View all models").addTo(map);
+
+  let nextModelButton = L.easyButton('glyphicon-forward', showNextModel, "Show next model");
+  let previousModelButton = L.easyButton('glyphicon-backward', showPreviousModel, "Show previous model");
+  let randomModelButton = L.easyButton('glyphicon-random', showRandomModel, "Show random model");
+  L.easyBar([nextModelButton, previousModelButton, randomModelButton]).addTo(map);
+
   // Fit the map to the bounds of all features.
   map.fitBounds(geoJsonLayer.getBounds(), {animate: false});
 
   // Randomly show up a model and zoom the map to it.
-  let randomIndex = Math.floor(Math.random() * geoJsonData.features.length);
-  let selectedFeature = geoJsonData.features[randomIndex];
-  embedSketchfab(selectedFeature.properties.model, selectedFeature.properties.title, selectedFeature.properties.author);
-  let selectedLayer = geoJsonLayer.getLayers()[randomIndex];
-  markerClusterGroup.zoomToShowLayer(selectedLayer, function() {selectedLayer.openPopup();});
+  randomIndex = getRandomFeatureIndex();
+  showModel(featureIndex);
 });
