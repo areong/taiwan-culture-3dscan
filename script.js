@@ -55,19 +55,19 @@ $.getJSON("https://areong.github.io/taiwan-culture-3dscan/data/models.geojson", 
     showModel(getRandomFeatureIndex());
   }
 
-  L.easyButton('glyphicon-home', function() {
+  L.easyButton('fa-home', function() {
     map.fitBounds(geoJsonLayer.getBounds());
   }, "View all models").addTo(map);
 
-  let nextModelButton = L.easyButton('glyphicon-forward', showNextModel, "Show next model");
-  let previousModelButton = L.easyButton('glyphicon-backward', showPreviousModel, "Show previous model");
-  let randomModelButton = L.easyButton('glyphicon-random', showRandomModel, "Show random model");
+  let nextModelButton = L.easyButton('fa-forward', showNextModel, "Show next model");
+  let previousModelButton = L.easyButton('fa-backward', showPreviousModel, "Show previous model");
+  let randomModelButton = L.easyButton('fa-random', showRandomModel, "Show random model");
   L.easyBar([nextModelButton, previousModelButton, randomModelButton]).addTo(map);
 
   // Fit the map to the bounds of all features.
   map.fitBounds(geoJsonLayer.getBounds(), {animate: false});
 
   // Randomly show up a model and zoom the map to it.
-  randomIndex = getRandomFeatureIndex();
+  featureIndex = getRandomFeatureIndex();
   showModel(featureIndex);
 });
