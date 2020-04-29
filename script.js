@@ -57,11 +57,11 @@ $.getJSON("https://areong.github.io/taiwan-culture-3dscan/data/models.geojson", 
 
   L.easyButton('fa-home', function() {
     map.fitBounds(geoJsonLayer.getBounds());
-  }, "View all models").addTo(map);
+  }, "一覽所有模型").addTo(map);
 
-  let nextModelButton = L.easyButton('fa-forward', showNextModel, "Show next model");
-  let previousModelButton = L.easyButton('fa-backward', showPreviousModel, "Show previous model");
-  let randomModelButton = L.easyButton('fa-random', showRandomModel, "Show random model");
+  let nextModelButton = L.easyButton('fa-forward', showNextModel, "看下一個");
+  let previousModelButton = L.easyButton('fa-backward', showPreviousModel, "看上一個");
+  let randomModelButton = L.easyButton('fa-random', showRandomModel, "隨機挑一個");
   L.easyBar([nextModelButton, previousModelButton, randomModelButton]).addTo(map);
 
   // Fit the map to the bounds of all features.
