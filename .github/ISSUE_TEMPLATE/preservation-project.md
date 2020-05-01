@@ -1,6 +1,6 @@
 ---
 name: 文資保存項目
-about: 文資拍攝建模保存計畫與進度紀錄，請每重建一個模型開一個issue
+about: 文資拍攝建模保存計畫與進度紀錄，請於每一次拍攝建模計畫開一個issue
 title: ''
 labels: 保存項目
 assignees: ''
