@@ -255,6 +255,141 @@
           25.05602211423223
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "淡水蜑家棚",
+        "model": "572ee5abf92b494ead3cec1eff3e0da8",
+        "author": "areong"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4464294,
+          25.1662097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "淡水崎仔頂施家古厝 正面",
+        "model": "d70319def1e44f49957327dbfa061822",
+        "author": "areong"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.441645,
+          25.169932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "淡水崎仔頂施家古厝 背面",
+        "model": "2cc3a9ddc6f641c79cc0aa588467cc28",
+        "author": "areong"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.441470,
+          25.170009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "淡水信用合作社",
+        "model": "762e864efbb94c7189f389097d104fcd",
+        "author": "areong"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.440949,
+          25.169548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "許順記",
+        "model": "ea12073efd074f6582289c79d4f375aa",
+        "author": "areong"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.440306,
+          25.170439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "淡水日本警官宿舍 駁坎",
+        "model": "a63837d1319d4612a3bcb6e48c69bfee",
+        "author": "areong"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.439989,
+          25.170690
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "淡水日本警官宿舍 俯瞰",
+        "model": "bead3fe49eb64cc4b1dbc887d0b969d1",
+        "author": "areong"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.439923,
+          25.170793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "淡水紅樓",
+        "model": "6099c3d799cb40918a4ce51514861b6e",
+        "author": "areong"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.439386,
+          25.171218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "滬尾小學校禮堂",
+        "model": "ff10c972965f4afaa44fb713030038fc",
+        "author": "areong"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.439513,
+          25.172909
+        ]
+      }
     }
   ]
 }
